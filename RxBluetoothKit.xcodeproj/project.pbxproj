@@ -257,7 +257,6 @@
 		A10F29AD1CDCD98400593284 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2666FE5A1CCE65CD005E81CE /* RxSwift.framework */; };
 		A10F29B01CDCD99900593284 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2666FE5E1CCE65EE005E81CE /* RxSwift.framework */; };
 		B0C4E87B2631800E00BFDDC2 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C4E87A2631800E00BFDDC2 /* RxSwift.xcframework */; };
-		B0C4E87C2631800E00BFDDC2 /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0C4E87A2631800E00BFDDC2 /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BB2FF3321F9EAD5300A12E10 /* CBPeripheralDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3311F9EAD5300A12E10 /* CBPeripheralDelegateWrapper.swift */; };
 		BB2FF3331F9EAF1600A12E10 /* CBPeripheralDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3311F9EAD5300A12E10 /* CBPeripheralDelegateWrapper.swift */; };
 		BB2FF3351F9EAF2B00A12E10 /* CBCentralManagerDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3341F9EAF2B00A12E10 /* CBCentralManagerDelegateWrapper.swift */; };
@@ -318,17 +317,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B0C4E87D2631800E00BFDDC2 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				B0C4E87C2631800E00BFDDC2 /* RxSwift.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -956,7 +944,6 @@
 				2666FD821CCE457C005E81CE /* Resources */,
 				26A66F951E263E8C00E62D8C /* Swiftlint script */,
 				1D1BC87C2003A2D7004C5F36 /* Generate testable files script */,
-				B0C4E87D2631800E00BFDDC2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
