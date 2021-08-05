@@ -11,7 +11,6 @@
 		0A339D751FA1C10A008385C8 /* CBCentralManagerDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3341F9EAF2B00A12E10 /* CBCentralManagerDelegateWrapper.swift */; };
 		0A339D761FA1C10B008385C8 /* CBCentralManagerDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3341F9EAF2B00A12E10 /* CBCentralManagerDelegateWrapper.swift */; };
 		0A339D771FA1C10D008385C8 /* CBPeripheralDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3311F9EAD5300A12E10 /* CBPeripheralDelegateWrapper.swift */; };
-		0A7B27D11F9F1710003F950E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7B27D01F9F1710003F950E /* RxSwift.framework */; };
 		0A7B27D51F9F176D003F950E /* CentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C0E1CBE3DEE005DEA5B /* CentralManager.swift */; };
 		0A7B27D61F9F176D003F950E /* AdvertisementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C0C1CBE3DEE005DEA5B /* AdvertisementData.swift */; };
 		0A7B27D71F9F176D003F950E /* BluetoothState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EF38C81D86EE1F00F9F468 /* BluetoothState.swift */; };
@@ -31,7 +30,6 @@
 		0A7B27FC1F9F190F003F950E /* RxBluetoothKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7B27F31F9F190F003F950E /* RxBluetoothKit.framework */; };
 		0A7B28141F9F1964003F950E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2666FD0B1CCE431B005E81CE /* Utilities.swift */; };
 		0A7B28151F9F1AE1003F950E /* RxBluetoothKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2666FCEE1CCE42A5005E81CE /* RxBluetoothKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A7B28181F9F1B05003F950E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7B28171F9F1B05003F950E /* RxSwift.framework */; };
 		0A7B281B1F9F1B21003F950E /* Descriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C121CBE3DEE005DEA5B /* Descriptor.swift */; };
 		0A7B281D1F9F1B25003F950E /* ScannedPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C211CBE3DEE005DEA5B /* ScannedPeripheral.swift */; };
 		0A7B281E1F9F1B25003F950E /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C161CBE3DEE005DEA5B /* Peripheral.swift */; };
@@ -253,10 +251,12 @@
 		4CB9A0A2204447B200FF9516 /* PeripheralTest+CharacteristicOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9A0A1204447B200FF9516 /* PeripheralTest+CharacteristicOperation.swift */; };
 		4CB9A0A3204447B200FF9516 /* PeripheralTest+CharacteristicOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9A0A1204447B200FF9516 /* PeripheralTest+CharacteristicOperation.swift */; };
 		4CB9A0A4204447B200FF9516 /* PeripheralTest+CharacteristicOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9A0A1204447B200FF9516 /* PeripheralTest+CharacteristicOperation.swift */; };
-		A10F298B1CDCD6E400593284 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2666FE5E1CCE65EE005E81CE /* RxSwift.framework */; };
 		A10F29AD1CDCD98400593284 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2666FE5A1CCE65CD005E81CE /* RxSwift.framework */; };
 		A10F29B01CDCD99900593284 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2666FE5E1CCE65EE005E81CE /* RxSwift.framework */; };
-		B0C4E87B2631800E00BFDDC2 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C4E87A2631800E00BFDDC2 /* RxSwift.xcframework */; };
+		B093AB8926BBF41D0011B87B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B093AB8826BBF41D0011B87B /* RxSwift */; };
+		B093AB9D26BBF4460011B87B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B093AB9C26BBF4460011B87B /* RxSwift */; };
+		B093ABA426BBF49D0011B87B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B093ABA326BBF49D0011B87B /* RxSwift */; };
+		B093ABAB26BBF5330011B87B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B093ABAA26BBF5330011B87B /* RxSwift */; };
 		BB2FF3321F9EAD5300A12E10 /* CBPeripheralDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3311F9EAD5300A12E10 /* CBPeripheralDelegateWrapper.swift */; };
 		BB2FF3331F9EAF1600A12E10 /* CBPeripheralDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3311F9EAD5300A12E10 /* CBPeripheralDelegateWrapper.swift */; };
 		BB2FF3351F9EAF2B00A12E10 /* CBCentralManagerDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3341F9EAF2B00A12E10 /* CBCentralManagerDelegateWrapper.swift */; };
@@ -419,7 +419,6 @@
 		A1299C211CBE3DEE005DEA5B /* ScannedPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannedPeripheral.swift; sourceTree = "<group>"; };
 		A1299C231CBE3DEE005DEA5B /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		A1299C241CBE3DEE005DEA5B /* Unimplemented.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unimplemented.swift; sourceTree = "<group>"; };
-		B0C4E87A2631800E00BFDDC2 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = SOURCE_ROOT; };
 		BB2FF3311F9EAD5300A12E10 /* CBPeripheralDelegateWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBPeripheralDelegateWrapper.swift; sourceTree = "<group>"; };
 		BB2FF3341F9EAF2B00A12E10 /* CBCentralManagerDelegateWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBCentralManagerDelegateWrapper.swift; sourceTree = "<group>"; };
 		D74B16841ED417AA006D5996 /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
@@ -433,7 +432,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7B27D11F9F1710003F950E /* RxSwift.framework in Frameworks */,
+				B093ABA426BBF49D0011B87B /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +440,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7B28181F9F1B05003F950E /* RxSwift.framework in Frameworks */,
+				B093ABAB26BBF5330011B87B /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,7 +457,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0C4E87B2631800E00BFDDC2 /* RxSwift.xcframework in Frameworks */,
+				B093AB8926BBF41D0011B87B /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +474,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10F298B1CDCD6E400593284 /* RxSwift.framework in Frameworks */,
+				B093AB9D26BBF4460011B87B /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -824,7 +823,6 @@
 		A1299C8D1CBE433B005DEA5B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B0C4E87A2631800E00BFDDC2 /* RxSwift.xcframework */,
 				0A7B28161F9F1AF0003F950E /* tvOS */,
 				0A7B27CF1F9F16F9003F950E /* watchOS */,
 				2666FE5D1CCE65D1005E81CE /* macOS */,
@@ -893,6 +891,9 @@
 			dependencies = (
 			);
 			name = "RxBluetoothKit watchOS";
+			packageProductDependencies = (
+				B093ABA326BBF49D0011B87B /* RxSwift */,
+			);
 			productName = RxBluetoothKit;
 			productReference = 0A7B27C71F9F1682003F950E /* RxBluetoothKit.framework */;
 			productType = "com.apple.product-type.framework";
@@ -912,6 +913,9 @@
 			dependencies = (
 			);
 			name = "RxBluetoothKit tvOS";
+			packageProductDependencies = (
+				B093ABAA26BBF5330011B87B /* RxSwift */,
+			);
 			productName = RxBluetoothKit;
 			productReference = 0A7B27F31F9F190F003F950E /* RxBluetoothKit.framework */;
 			productType = "com.apple.product-type.framework";
@@ -950,6 +954,9 @@
 			dependencies = (
 			);
 			name = "RxBluetoothKit iOS";
+			packageProductDependencies = (
+				B093AB8826BBF41D0011B87B /* RxSwift */,
+			);
 			productName = "RxBluetoothKit iOS";
 			productReference = 2666FD841CCE457C005E81CE /* RxBluetoothKit.framework */;
 			productType = "com.apple.product-type.framework";
@@ -989,6 +996,9 @@
 			dependencies = (
 			);
 			name = "RxBluetoothKit macOS";
+			packageProductDependencies = (
+				B093AB9C26BBF4460011B87B /* RxSwift */,
+			);
 			productName = "RxBluetoothKit OSX";
 			productReference = 2666FDA31CCE4626005E81CE /* RxBluetoothKit.framework */;
 			productType = "com.apple.product-type.framework";
@@ -1061,6 +1071,9 @@
 				Base,
 			);
 			mainGroup = A1299BB31CBE3D52005DEA5B;
+			packageReferences = (
+				B093AB8726BBF41D0011B87B /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = A1299BBE1CBE3D52005DEA5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -2143,6 +2156,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B093AB8726BBF41D0011B87B /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = exactVersion;
+				version = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B093AB8826BBF41D0011B87B /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B093AB8726BBF41D0011B87B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		B093AB9C26BBF4460011B87B /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B093AB8726BBF41D0011B87B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		B093ABA326BBF49D0011B87B /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B093AB8726BBF41D0011B87B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		B093ABAA26BBF5330011B87B /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B093AB8726BBF41D0011B87B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A1299BB41CBE3D52005DEA5B /* Project object */;
 }
